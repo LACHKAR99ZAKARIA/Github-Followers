@@ -43,6 +43,8 @@
 		01415B6C2C9CB05E00E6FA80 /* SearchVC */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SearchVC; sourceTree = "<group>"; };
 		01415B6D2C9CB06600E6FA80 /* VC */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = VC; sourceTree = "<group>"; };
 		01415B6E2C9CB06E00E6FA80 /* FollowerListVC */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FollowerListVC; sourceTree = "<group>"; };
+		01415B6F2C9CB0D000E6FA80 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		01415B872C9CC55300E6FA80 /* Manager */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Manager; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,8 @@
 		0186AF832C959D4A006C8E82 /* github Fllowers */ = {
 			isa = PBXGroup;
 			children = (
+				01415B872C9CC55300E6FA80 /* Manager */,
+				01415B6F2C9CB0D000E6FA80 /* Model */,
 				01B789162C99C620007B64F9 /* Extensions */,
 				01B789042C9740FF007B64F9 /* Components */,
 				0186AF9C2C95A2A6006C8E82 /* VC */,
@@ -204,6 +208,8 @@
 				01415B6C2C9CB05E00E6FA80 /* SearchVC */,
 				01415B6D2C9CB06600E6FA80 /* VC */,
 				01415B6E2C9CB06E00E6FA80 /* FollowerListVC */,
+				01415B6F2C9CB0D000E6FA80 /* Model */,
+				01415B872C9CC55300E6FA80 /* Manager */,
 			);
 			name = "github Fllowers";
 			productName = "github Fllowers";

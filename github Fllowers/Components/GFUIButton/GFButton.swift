@@ -25,10 +25,9 @@ class GFButton: UIButton {
     }
     
     private func configure() {
-//        configuration = .tinted()
-//        configuration?.cornerStyle = .medium
         layer.cornerRadius = 10
-        titleLabel?.textColor = .white
+//        titleLabel?.textColor = .white
+        setTitleColor(.white, for: .normal)
         titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
         translatesAutoresizingMaskIntoConstraints = false
     }
@@ -36,15 +35,5 @@ class GFButton: UIButton {
     func set(color: UIColor, title: String, systemImageName: String) {
         self.backgroundColor = color
         self.setTitle(title, for: .normal)
-//        self.setImage(UIImage(systemName: systemImageName), for: .normal)
-        
-        
-//        configuration?.baseBackgroundColor = color
-//        configuration?.baseForegroundColor = color
-//        configuration?.title = title
-        
-//        configuration?.image = UIImage(systemName: systemImageName)
-//        configuration?.imagePadding = 6
-//        configuration?.imagePlacement = .leading
     }
 }
