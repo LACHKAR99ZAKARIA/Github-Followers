@@ -45,6 +45,8 @@
 		01415B6E2C9CB06E00E6FA80 /* FollowerListVC */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FollowerListVC; sourceTree = "<group>"; };
 		01415B6F2C9CB0D000E6FA80 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
 		01415B872C9CC55300E6FA80 /* Manager */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Manager; sourceTree = "<group>"; };
+		01415B8E2C9DC16F00E6FA80 /* Cells */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Cells; sourceTree = "<group>"; };
+		01415B922C9DC1F500E6FA80 /* GFAvatarImageView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GFAvatarImageView; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,7 @@
 				01415B6F2C9CB0D000E6FA80 /* Model */,
 				01B789162C99C620007B64F9 /* Extensions */,
 				01B789042C9740FF007B64F9 /* Components */,
-				0186AF9C2C95A2A6006C8E82 /* VC */,
+				0186AF9C2C95A2A6006C8E82 /* Screens */,
 				0186AF842C959D4A006C8E82 /* AppDelegate.swift */,
 				0186AF862C959D4A006C8E82 /* SceneDelegate.swift */,
 				0186AF8D2C959D4C006C8E82 /* Assets.xcassets */,
@@ -91,7 +93,7 @@
 			path = "github Fllowers";
 			sourceTree = "<group>";
 		};
-		0186AF9C2C95A2A6006C8E82 /* VC */ = {
+		0186AF9C2C95A2A6006C8E82 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				01415B6E2C9CB06E00E6FA80 /* FollowerListVC */,
@@ -99,12 +101,14 @@
 				01415B6C2C9CB05E00E6FA80 /* SearchVC */,
 				01415B6B2C9CB04E00E6FA80 /* FavoriteListVC */,
 			);
-			path = VC;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		01B789042C9740FF007B64F9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				01415B922C9DC1F500E6FA80 /* GFAvatarImageView */,
+				01415B8E2C9DC16F00E6FA80 /* Cells */,
 				01B7891A2C9B6882007B64F9 /* GFAlertContainerView */,
 				01B789132C98895B007B64F9 /* GFAlertVC */,
 				01B789102C9888A9007B64F9 /* GFBodyLabel */,
@@ -210,6 +214,8 @@
 				01415B6E2C9CB06E00E6FA80 /* FollowerListVC */,
 				01415B6F2C9CB0D000E6FA80 /* Model */,
 				01415B872C9CC55300E6FA80 /* Manager */,
+				01415B8E2C9DC16F00E6FA80 /* Cells */,
+				01415B922C9DC1F500E6FA80 /* GFAvatarImageView */,
 			);
 			name = "github Fllowers";
 			productName = "github Fllowers";
