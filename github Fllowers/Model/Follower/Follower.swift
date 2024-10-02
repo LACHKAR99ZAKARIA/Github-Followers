@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Follower: Codable {
+struct Follower: Codable, Hashable, Identifiable {
+    var id = UUID()
     var login: String
     var avatarUrl: String
     
@@ -15,4 +16,8 @@ struct Follower: Codable {
         case login
         case avatarUrl = "avatar_url"
     }
+    
+//    func hash(into hasher: inout Hasher) {
+//        hasher.combine(login)
+//    }
 }
